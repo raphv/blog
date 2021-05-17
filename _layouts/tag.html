@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="tag-page">
+  <h1 class="page-heading">{{ page.title | default: page.tag-name }}</h1>
+
+  {{ content }}
+
+  {%- assign posts = site.tags[page.tag-name] -%}
+  {%- if posts.size > 0 -%}
+  <h2 class="post-list-heading">Posts tagged with <em>{{page.tag-name}}</em></h2>
+  {%- include postlist.html -%}
+  {% endif %}
+
+</div>

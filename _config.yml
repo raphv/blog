@@ -1,12 +1,16 @@
 title: Raph’s blog
 author: Raphaël Velt
 description: >- # this means to ignore newlines until "baseurl:"
-  Reflections about technology, user experience design, and teaching
+  Reflections about technology, user experience design, teaching, and cooking
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://raphv.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://raphv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: raphv
 github_username:  raphv
 linkedin_username: raphaelvelt
+
+header_pages:
+ - index.markdown
+ - about.markdown
 
 # Build settings
 theme: minima

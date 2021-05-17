@@ -1,0 +1,38 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+		<h2 class="footer-heading">
+		   <a href="{{ "/" | relative_url }}">
+		   {{ site.title | escape }}
+		   </a>
+		</h2>
+        <p>{{- site.description | escape -}}</p>
+      </div>
+
+      <div class="footer-col footer-col-2">
+		<h3>Find me on&hellip;</h3>
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+		<p>
+          Except where otherwise noted, the content of this blog was created by Raphaël Velt and is licensed under the
+		  <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">
+		    Creative Commons Attibution Non Commercial Share Alike 4.0 license.
+		  </a>
+		</p>
+		<p style="text-align: center;">
+		  <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">
+		    <img src="{{ "/images/cc-by-nc-sa-88x31.png" | relative_url }}" alt="CC-BY-NC-SA-4.0">
+		  </a>
+	    </p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
