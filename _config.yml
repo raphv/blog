@@ -1,12 +1,13 @@
 title: Raph’s blog
 author: Raphaël Velt
-description: >- # this means to ignore newlines until "baseurl:"
-  Reflections about technology, user experience design, teaching, and cooking
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://raphv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog"
+url: "https://velt.info"
 twitter_username: raphv
 github_username:  raphv
 linkedin_username: raphaelvelt
+show_excerpts: true
+excerpt_separator: <!--more-->
+permalink: /:year/:month/:title/
 
 header_pages:
  - index.markdown
@@ -16,7 +17,13 @@ header_pages:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-toc
 
 # Theme settings
 minima:
   date_format: "%A %d %B %Y"
+
+#Plugin settings
+toc:
+  min_level: 1
+  max_level: 3
