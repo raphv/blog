@@ -102,6 +102,31 @@
 }
 
 
+.page-top-button {
+  text-align: right;
+  position: sticky;
+  bottom: 0;
+  
+  a {
+    display: inline-block;
+    background-color: $grey-color;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 10px;
+    height: 20px;
+    margin-bottom: $spacing-unit / 4;
+    margin-right: $spacing-unit / 4;
+  }
+
+  svg {
+    fill: $light-background;
+  }
+
+  a:hover svg {
+    fill: $grey-color-light;
+  }
+
+}
 
 /**
  * Site footer
@@ -230,7 +255,7 @@
 }
 
 .post-content, .page-content, .home {
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit / 2;
 
   h2 {
     font-weight: 700;

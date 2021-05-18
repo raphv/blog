@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <a id="page-top"></a>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+      <div class="page-top-button">
+        <a href="#page-top" title="Scroll to top">
+          <svg viewBox="0 0 10 20" width="10px" height="20px">
+            <path d="M5,0L0,10L4,10L4,20L6,20L6,10L10,10z" />
+          </svg>
+        </a>
+      </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
