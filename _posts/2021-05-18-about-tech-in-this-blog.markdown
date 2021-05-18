@@ -175,9 +175,9 @@ In a typical corporate move, both the name and the syntax of JavaScript are an a
 This language was invented in 10 days, but nowadays it powers most of the web.
 
 Yes, most of the toolset I’ve described above is **open source**, but the biggest beneficiaries from open source technologies are big software corporations:
-- They can pool their efforts on some very complex pieces of software
-- They benefit from the volunteer work because software developers love to step in to improve these products
-- They 
+- They can pool their efforts on some very complex pieces of software.
+- They benefit from the volunteer work because software developers love to step in to improve these products.
+- They increase their visibility and attract a larger technology-minded user base, thereby reinforcing their position as market leaders.
 
 An example: Google Chrome and Microsoft Edge, the successor to Internet Explorer, share a large part of their code, called Chromium.
 For many reasons, the browser war has become pointless, but it's still worth keeping control on a valuable asset.
