@@ -254,7 +254,7 @@
   }
 }
 
-.post-content, .page-content, .home {
+.post-content, .page-content {
   margin-bottom: $spacing-unit / 2;
 
   h2 {
@@ -287,4 +287,8 @@
   strong {
     font-weight: 700;
   }
+}
+
+.toc-entry.toc-h3 {
+  list-style-type: lower-alpha;
 }

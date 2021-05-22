@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Kurier;
+  src: url("Kurier-Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("Kurier-BoldItalic.woff2") format("woff2");
+  font-weight:700;
+  font-style:italic;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("Kurier-Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("Kurier-Italic.woff2") format("woff2");
+  font-weight:400;
+  font-style:italic;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("KurierHeavy-Regular.woff2") format("woff2");
+  font-weight:800;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("KurierHeavy-Italic.woff2") format("woff2");
+  font-weight:800;
+  font-style:italic;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("KurierLight-Regular.woff2") format("woff2");
+  font-weight:300;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("KurierLight-Italic.woff2") format("woff2");
+  font-weight:300;
+  font-style:italic;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("KurierMedium-Regular.woff2") format("woff2");
+  font-weight:600;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: Kurier;
+  src: url("KurierMedium-Italic.woff2") format("woff2");
+  font-weight:600;
+  font-style:italic;
+}
+

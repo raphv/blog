@@ -11,6 +11,8 @@ permalink: /:year/:month/:title/
 
 header_pages:
  - index.markdown
+ - tags/education.md
+ - tags/technology.markdown
  - about.markdown
 
 # Build settings
@@ -27,3 +29,4 @@ minima:
 toc:
   min_level: 1
   max_level: 3
+  ordered_list: true

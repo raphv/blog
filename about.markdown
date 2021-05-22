@@ -16,4 +16,4 @@ All opinions in this blog are personal.
 
 This blog runs with [Jekyll](https://jekyllrb.com/){:target="_blank"} and a slightly modified version of the default [minima](https://github.com/jekyll/minima){:target="_blank"} theme.
 
-The font used on this website is [Iwona by Janusz Nowacki](https://jmn.pl/typografia/kurier-i-iwona/){:target="_blank"}
+The font used on this website is [Kurier by Małgorzata Budita and Janusz Nowacki](https://jmn.pl/typografia/kurier-i-iwona/){:target="_blank"}

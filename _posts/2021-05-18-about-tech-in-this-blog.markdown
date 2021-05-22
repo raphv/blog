@@ -44,7 +44,7 @@ Here’s a non exhaustive list of what I've had to use:
 - I’ve had to understand the way themes can be **"subclassed"** to be modified.
 - When I needed to change colours in the theme, I’ve had to use **CSS** and **SCSS**.
 - When I’ve decided to modify the footer, I’ve had to use both **HTML** and a templating language named **Liquid**
-- I had a nice open source font I wanted to use, [Iwona by Janusz Nowacki](https://jmn.pl/typografia/kurier-i-iwona/), and I didn’t want to use Google Fonts for privacy reasons, so I had some preparation to do there too.
+- I had a nice open source font I wanted to use, [Kurier by Małgorzata Budita and Janusz Nowacki](https://jmn.pl/typografia/kurier-i-iwona/), and I didn’t want to use Google Fonts for privacy reasons, so I had some preparation to do there too.
 - For publication, I first considered **GitHub Pages** - you need to know **version control** in general and **git** in particular.
 - Finally I decided to host it on my own server, I have used the File Transfer Protocol (**FTP**).
 
